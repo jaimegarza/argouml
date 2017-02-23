@@ -308,9 +308,9 @@ This is designed to work in two different environments:
       <property name="bundleVersion" value="${version.suffix}" />
 
       <!-- Compiler settings. -->
-      <condition property="dir_bootclasspath" value="${java.home}/../Classes">
+      <!--<condition property="dir_bootclasspath" value="${java.home}/../Classes">
         <os family="mac" />
-      </condition>
+      </condition> -->
       <property name="dir_bootclasspath" value="${java.home}/lib" />
       <path id="path_bootclasspath">
         <fileset dir="${dir_bootclasspath}">
